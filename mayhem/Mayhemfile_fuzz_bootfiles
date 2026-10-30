@@ -1,0 +1,9 @@
+project: savantenvs/rpi-imager
+target: fuzz_bootfiles
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_bootfiles/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_bootfiles
+    libfuzzer: true
+    timeout: 30

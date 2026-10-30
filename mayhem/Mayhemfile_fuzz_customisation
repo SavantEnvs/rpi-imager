@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_customisation
+cmds:
+  - cmd: /mayhem/fuzz_customisation
+    libfuzzer: true
+    timeout: 30

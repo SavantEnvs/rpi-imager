@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_rpiboot_uri
+cmds:
+  - cmd: /mayhem/fuzz_rpiboot_uri
+    libfuzzer: true
+    timeout: 30

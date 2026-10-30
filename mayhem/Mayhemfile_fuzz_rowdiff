@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_rowdiff
+cmds:
+  - cmd: /mayhem/fuzz_rowdiff
+    libfuzzer: true
+    timeout: 30

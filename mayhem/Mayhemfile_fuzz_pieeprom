@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_pieeprom
+cmds:
+  - cmd: /mayhem/fuzz_pieeprom
+    libfuzzer: true
+    timeout: 30

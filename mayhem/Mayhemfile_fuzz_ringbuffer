@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_ringbuffer
+cmds:
+  - cmd: /mayhem/fuzz_ringbuffer
+    libfuzzer: true
+    timeout: 30

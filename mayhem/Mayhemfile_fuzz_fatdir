@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_fatdir
+cmds:
+  - cmd: /mayhem/fuzz_fatdir
+    libfuzzer: true
+    timeout: 30

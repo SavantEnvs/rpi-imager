@@ -1,0 +1,1 @@
+{"blockdevices":[{"kname":"/dev/nvme0n1","subsystems":"block:nvme:pci","size":512110190592,"ro":false,"rm":false,"mountpoints":["/"]},{"kname":"/dev/loop0","subsystems":"block","size":134217728,"ro":true,"rm":false},{"kname":"/dev/sdb","subsystems":"block:scsi:usb","size":64023257088,"ro":false,"rm":true}]}

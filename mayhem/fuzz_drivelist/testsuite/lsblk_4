@@ -1,0 +1,1 @@
+{"blockdevices":[{"kname":"/dev/sdc","subsystems":"block:scsi:usb","size":0,"ro":false,"rm":true}]}

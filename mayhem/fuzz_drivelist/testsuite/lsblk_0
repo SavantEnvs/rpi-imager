@@ -1,0 +1,1 @@
+{"blockdevices":[{"kname":"/dev/sda","subsystems":"block:scsi:usb","size":32010928128,"ro":false,"rm":true,"model":"Generic","mountpoints":["/media/card"]}]}

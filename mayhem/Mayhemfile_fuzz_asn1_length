@@ -1,0 +1,6 @@
+project: savantenvs/rpi-imager
+target: fuzz_asn1_length
+cmds:
+  - cmd: /mayhem/fuzz_asn1_length
+    libfuzzer: true
+    timeout: 30

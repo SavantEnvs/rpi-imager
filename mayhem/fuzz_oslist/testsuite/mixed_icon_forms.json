@@ -1,0 +1,1 @@
+{"os_list":[{"name":"Cat","icon":"icons/cat.png","subitems":[{"name":"A","icon":"HTTPS://example.com/a.png"},{"name":"B","icon":"file://host/share/b.png"},{"name":"C","icon":"qrc:/icons/c.png"},{"name":"D","icon":""}]}]}

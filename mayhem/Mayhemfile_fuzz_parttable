@@ -1,0 +1,9 @@
+project: savantenvs/rpi-imager
+target: fuzz_parttable
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_parttable/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_parttable
+    libfuzzer: true
+    timeout: 30

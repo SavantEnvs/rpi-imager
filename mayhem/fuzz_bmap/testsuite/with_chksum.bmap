@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<bmap version="2.0">
+  <BlockSize>4096</BlockSize>
+  <BlocksCount>100</BlocksCount>
+  <MappedBlocksCount>10</MappedBlocksCount>
+  <BlockMap>
+    <Range chksum="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa">0-9</Range>
+  </BlockMap>
+</bmap>

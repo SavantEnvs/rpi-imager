@@ -1,0 +1,9 @@
+project: savantenvs/rpi-imager
+target: fuzz_sparse_roundtrip
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_sparse_roundtrip/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_sparse_roundtrip
+    libfuzzer: true
+    timeout: 30
